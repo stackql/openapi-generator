@@ -54,8 +54,9 @@ $ curl http://localhost:8080/userz
 }
 ```
 
+### Best example yet
 
-This actually works for super simple stubbing, using the `stackql` `github.users` service:
+This actually works for super simple stubbing, using the `stackql` `github.orgs` service:
 
 ```bash
 stackql-mocking/docker-generate.sh sandbox/github/v3.1/services/orgs.yaml python-flask  gh-orgs-python-flask
